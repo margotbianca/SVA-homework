@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MadLibs</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="author" content="The Chopping Block, Inc." />
+	<meta name="geo.country" content="US" />
+	<meta name="dc.language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	
+	<style type="text/css" media="screen">		
+ body {
+    font-family: Arial, "MS Trebuchet", sans-serif;
+	font-size: 14px;
+	color: black;
+    background-color: #CCCCCC;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 100px;
+
+ 	}
+	</style>
+</head>
+<body>
+
+	<div class="wrap" >
+		<p id="paragraph">  </p>
+	</div>
+	<script type="text/javascript" charset="utf-8">
+		
+		
+		//Going to need to use
+		// prompt("Helper Text");
+		// Assign to a variable
+		// Display to the screen, using
+		// 		document.getElementById("paragraph").innerHTML = variable;
+
+		console.log("que pasa?");
+
+	
+		var adjective = prompt("Enter an adjective");
+		var noun = prompt("Enter a noun");
+		var story1 = "During the storm we were feeling very ";
+		var story2 = ", so we found shelter in the ";
+		var story3 = ". When it passed we all decided to go ";
+		var activity = prompt("Enter an activity");
+		var story4 = "!";
+	
+		document.getElementById("paragraph").innerHTML = story1 + adjective + story2 + noun + story3 + activity + story4;
+		
+	</script>
+	
+	
+</body>
+</html>

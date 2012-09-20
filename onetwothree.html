@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>One, Two, Three</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="author" content="The Chopping Block, Inc." />
+	<meta name="geo.country" content="US" />
+	<meta name="dc.language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	
+	<style type="text/css" media="screen">		
+
+ body {
+    font-family: Arial, "MS Trebuchet", sans-serif;
+	font-size: 14px;
+	color: black;
+    background-color: #CCCCCC;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 100px;
+	
+ 	}
+ 
+/*local styles if any (quick tests and local only overrides)*/
+	</style>
+</head>
+<body>
+
+	<div class="wrap" >
+		<p id="paragraph1">  </p>
+		<p id="paragraph2">  </p>
+		<p id="paragraph3">  </p>
+		<p id="paragraph4">  </p>
+
+
+
+
+
+	</div>
+	
+	
+	<script type="text/javascript" charset="utf-8">
+		
+		
+		//Going to need to use
+		// prompt("Helper Text");
+		// Assign to a variable
+		// Display to the screen, using
+		// 		document.getElementById("paragraph").innerHTML = variable;
+
+		var number = prompt("Pick a number between 1 and 3.")
+		var story1 = "You are an initiator of action, a pioneering spirit. Your ideas are inventive and you display strong leadership skills. You may end up as an executive or team leader. Some may say you are overly aggressive, and your egotistic nature and impulsiveness may get you into trouble."
+		var story2 = "You are an excellent cooperator with an adaptable nature. You have strong empathy and are skilled at mediating and diplomacy. Your sincerity is admirable. Some may be put off by your shy nature and your fearful approach. You also tend to drown in detail."
+		var story3 = "You love to express yourself in any way you can. You have a keen imagination and many artistic gifts. Your perceptive nature and endless optimism are very appealing to others. However, your scattered energies and propensity to exaggerate may lead you to lack follow-through and direction in life."
+
+		if(number == 1){ 
+			document.getElementById("paragraph1").innerHTML = story1;
+		}
+
+		if(number == 2){
+			document.getElementById("paragraph2").innerHTML = story2;
+		}
+
+		if(number == 3){
+			document.getElementById("paragraph3").innerHTML = story3;
+		}
+
+
+		
+		
+	</script>
+	
+	
+</body>
+</html>
